@@ -1,0 +1,57 @@
+
+[
+    {
+        "control_id": "common_control_1",
+        "description": null,
+        "jurisdictionDetails": [
+            {
+                "control_number": "Control 5",
+                "jurisdiction": "UK"
+            },
+            {
+                "control_number": "Control 6",
+                "jurisdiction": "Sweden"
+            }
+        ]
+    },
+    {
+        "control_id": "common_control_2",
+        "description": null,
+        "jurisdictionDetails": [
+            {
+                "control_number": "Control 7",
+                "jurisdiction": "UK"
+            }
+        ]
+    },
+    {
+        "control_id": "common_control_3",
+        "description": null,
+        "jurisdictionDetails": [
+            {
+                "control_number": "Control 2",
+                "jurisdiction": "UK"
+            }
+        ]
+    },
+    {
+        "control_id": "common_control_4",
+        "description": null,
+        "jurisdictionDetails": [
+            {
+                "control_number": "Control 8",
+                "jurisdiction": "UK"
+            }
+        ]
+    },
+    {
+        "control_id": "common_control_5",
+        "description": null,
+        "jurisdictionDetails": [
+            {
+                "control_number": "Control 1",
+                "jurisdiction": "Sweden"
+            }
+        ]
+    }
+]
