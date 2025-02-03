@@ -6,10 +6,10 @@ def read_third_column(file_path):
     return df.iloc[:, 0].dropna().tolist()  # Convert to list, dropping any NaN values
 
 # Example usage
-file_path = "Italy.xlsx"  # Replace with your actual file path
+file_path = "CIS.xlsx"  # Replace with your actual file path
 third_column_data = read_third_column(file_path)
 
-file_path2 = "Virginia.xlsx"  # Replace with your actual file path
+file_path2 = "iso.xlsx"  # Replace with your actual file path
 third_column_data2 = read_third_column(file_path2)
 
 from sentence_transformers import SentenceTransformer
@@ -62,5 +62,5 @@ def find_similar_embeddings(list_a, list_b, threshold=0.85):
 
 
 # Find similar embeddings
-similar_indices = find_similar_embeddings(embeddings, embeddings2, threshold=0.90)
+similar_indices = find_similar_embeddings(embeddings, embeddings2, threshold=0.85)
 print(similar_indices)
